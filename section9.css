@@ -1,0 +1,27 @@
+.nineth-section{
+    background-color: #EBF2FA;
+    padding: 10vh 18vh;
+}
+.nine-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr
+}
+
+.nine-items{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 15px;
+
+}
+.nine-items p{
+    color: #607592;
+    font-size: 17px;
+}
+.nine-items p:hover{
+    color: #2394ed;
+}
+
+#tk{
+   color: #183B56; 
+   font-weight: 600
+}

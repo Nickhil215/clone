@@ -1,0 +1,113 @@
+.seventh-section{
+    background-color: #183B54;
+    margin-top: 60px;
+    
+}
+.seventh-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  
+    padding: 20px 20vh;
+    align-items: center;
+}
+.list-seventh{
+    display: flex;
+    gap: 50px;
+}
+
+.ul-list1{
+ display: flex;
+ flex-flow: column wrap;
+ justify-content: space-around;
+ 
+}
+.list-seventh li{
+    margin: 20px 0px;
+   
+}
+
+.seventh1{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    width: 550px;
+}
+.seventh1 h1{ 
+    
+  font-size: 39px;
+  font-weight: 600;
+  color: white;
+}
+ul li::before {
+    content: "\2022";
+    color: #AACDE4;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+.seventh1 h2{
+    color: white;
+}
+.seventh1 p{
+    color: #AACDE4;
+    font-size: 20px;
+}
+
+.seventh1 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.seventh2 > img{
+    /* position: relative; */
+}
+.svn-bt{
+    background-color: #2394ed;
+    padding: 12px 24px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+    font-weight: 550;
+}
+
+.seventh2-item{
+    position: relative;
+}
+.seventh2-item .svn-item{
+    background-image: url(./ball.png);
+    background-repeat: no-repeat;
+    background-position: 50% ;
+    position: absolute;
+    bottom: 150px;
+    right: 150px;
+    
+}
+
+.svn-item .inner{
+    display: flex;
+    flex-flow: column wrap;
+    /* gap: 8px; */
+    justify-content: center;
+    align-items: center;
+ position: absolute;
+ top: 90px ;
+ left: 90px;
+ font-weight: 550;
+}
+
+.inner h1{
+    color: #8BA6C0;
+    display: flex;
+    align-items: center;
+}
+.inner p{
+    font-size: 20px;
+}
+
+
+.seventh1 a:hover{
+    background-color: #1c6ba8;
+}

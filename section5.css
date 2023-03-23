@@ -1,0 +1,11 @@
+.fifth-section{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 0 26vh;
+    padding-top: 10vh;
+    
+}
+
+.fifth-item1{
+    width: 400px;
+}

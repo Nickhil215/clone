@@ -1,0 +1,17 @@
+.second-section{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+    gap: 20px;
+}
+.second-section p{
+    font-size: 18px;
+}
+
+.img-items{
+    max-height: 46px;
+    display: inline-block;
+    margin-left: 60px;
+}

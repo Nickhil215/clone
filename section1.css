@@ -1,0 +1,45 @@
+.first-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+    align-items: center;
+    
+}
+.item1{
+    width: 41.66666667%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    padding: 0px;
+    font-family: 'Averta PE',sans-serif;
+    
+}
+.item1 a:hover{
+    background-color: #11588f;
+}
+.item1 h1{
+    font-size: 40px;
+    margin-top: 0;
+    color: #183b56;
+    font-size: 48px;
+    letter-spacing: -1px;
+}
+.item1 p{
+    position: static;
+    display: block;
+    margin-bottom: 32px;
+   
+    color: #577592;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.item1 > a{
+    padding: 16px 24px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #2394ed;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
